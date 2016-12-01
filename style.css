@@ -1,0 +1,281 @@
+body {
+    margin: 0;
+}
+.container {
+    margin: 0 auto;
+}
+html {
+    background-color: #ffffff;
+    color: #b5b9c1;
+}
+p {
+    font-family: 'Open Sans', arial;
+}
+h1 {
+  font-family: 'Montserrat Bold', arial;  
+}
+a {
+    font-family: 'Montserrat', arial;
+}
+/*шапка*/
+.header {
+    background-image: url(img/freelancerfreelancer_01.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1057px;
+    min-width: 940px;
+}
+.menu {
+    width: 940px;
+    margin: 0 auto;
+}
+.menu ul {
+    margin: 0 0 0 435px;
+    padding-top: 30px;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+    margin-right: 30px;
+}
+.menu ul li a {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #263742
+}
+.menu ul li a:hover {
+    color: brown;
+}
+.slogan {
+    width: 940px;
+    margin: 340px auto 0;
+}
+.slogan h1 {
+    text-transform: uppercase;
+    color: #314a5b;
+    font-size: 48px;
+}
+.slogan p {
+    color: #314a5b;
+    font-size: 20px;
+}
+.slogan #button1 {
+    background-color: #fa5c65;
+    border: none;
+    color: #fff;
+    padding: 28px 43px;
+    border-radius: 10px;
+    margin-top: 45px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: 'Open Sans Bold', arial;
+}
+.slogan #button1:hover {
+    background-color: crimson;
+}
+/*контент*/
+.content {
+    margin: 90px 0 0 0;
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.content1 {
+    overflow: hidden;
+}
+.all {
+    width: 300px;
+    float: left;
+}
+.all2 {
+    width: 300px;
+    float: left;
+    margin: 0 20px;
+}
+.content1 .all h1{
+    font-size: 26px;
+    color: #465065;
+    text-transform: uppercase;
+}
+.content1 .all p {
+    font-size: 15px;
+    color: #9aa0ab
+}
+.content1 .all a {
+    text-transform: uppercase;
+    color: #fa5c65;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+    width: 60px;
+    background-image: url(img/%D1%81%D1%82%D1%80%D0%B5%D0%BB%D0%BA%D0%B0.png);
+    background-repeat: no-repeat;
+    background-position: right 5px;
+}
+.content1 .all2 h1{
+    font-size: 26px;
+    color: #465065;
+    text-transform: uppercase;
+}
+.content1 .all2 p {
+    font-size: 15px;
+    color: #9aa0ab
+}
+.content1 .all2 a {
+    text-transform: uppercase;
+    color: #fa5c65;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+    width: 60px;
+    background-image: url(img/%D1%81%D1%82%D1%80%D0%B5%D0%BB%D0%BA%D0%B0.png);
+    background-repeat: no-repeat;
+    background-position: right 5px;
+}
+.content2 {
+    margin-top: 110px;
+    background-image: url(img/nout.png);
+    background-repeat: no-repeat;
+    
+}
+.portfolio {
+    width: 380px;
+    margin: 0 60px 0px 480px;
+    padding-bottom: 20px;
+}
+.content2 .portfolio h1 {
+text-transform: uppercase;
+    color: #314a5b;
+    font-size: 40px;
+    margin: 0;
+    padding-top: 10px;
+}
+.content2 .portfolio #in {
+    font-size: 16px;
+    color: #314a5b;
+    margin-top: 10px;
+}
+.content2 .portfolio p {
+    color: #a2a7b1;
+    font-size: 15px;
+    margin: 25px 0;
+}
+.content2 .portfolio a {
+    text-transform: uppercase;
+    color: #fa5c65;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+    width: 60px;
+    background-image: url(img/%D1%81%D1%82%D1%80%D0%B5%D0%BB%D0%BA%D0%B0.png);
+    background-repeat: no-repeat;
+    background-position: right 5px;
+    margin-top: 35px;
+}
+.content3 {
+    margin-top: 105px;
+}
+.content3 h1 {
+    font-size: 32px;
+    color: #314a5b;
+    text-transform: uppercase;
+    margin: 0;
+}
+.content3 p {
+    font-size: 16px;
+    color: #9aa0ab;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.oll {
+    width: 300px;
+    float: left;
+}
+.oll2 {
+    width: 300px;
+    float: left;
+    margin: 0 20px;
+}
+.content3 .oll .par1 {
+    font-size: 14px;
+    color: #f0454c;
+}
+.content3 .oll h1 {
+    font-size: 22px;
+    color: #314a5b;
+    margin-top: 7px;
+}
+.content3 .oll p {
+    color: #9aa0ab;
+    font-size: 14px;
+    margin: 8px 0;
+}
+.content3 .oll2 .par1 {
+    font-size: 14px;
+    color: #f0454c;
+}
+.content3 .oll2 h1 {
+    font-size: 22px;
+    color: #314a5b;
+    margin-top: 7px;
+}
+.content3 .oll2 p {
+    color: #9aa0ab;
+    font-size: 14px;
+    margin: 8px 0;
+}
+.content3 img {
+    float: left;
+    padding-right: 20px;
+}
+.content3 a {
+    text-transform: uppercase;
+    color: #fa5c65;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+    width: 60px;
+    background-image: url(img/%D1%81%D1%82%D1%80%D0%B5%D0%BB%D0%BA%D0%B0.png);
+    background-repeat: no-repeat;
+    background-position: right 5px;
+    margin-top: 50px;
+    float: right;
+}
+.coment {
+    overflow: hidden;
+}
+/*шапка*/
+.footer {
+    width: 940px;
+    margin: 60px auto 0;
+    
+    border-top: 1px solid #b9c0c6;
+}
+.footer1{
+    overflow: hidden;
+}
+.ill {
+    width: 470px;
+    float: left;
+}
+.footer1 .ill p {
+    text-align: right;
+    margin: 35px 0 0 0;
+}
+.footer1 .ill ul {
+    padding: 0;
+    margin: 35px 0 0px 0;
+}
+.footer1 .ill ul li {
+    list-style: none;
+    float: left;
+    margin-right: 20px;
+}
+.footer1 .ill ul li a {
+    display: block;
+}
+.footer1 .ill{
+    margin-bottom: 45px;
+}
